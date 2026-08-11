@@ -1,0 +1,32 @@
+name: Prefv4
+main: com.alfredredbird.prefv4.Prefv4
+version: 1.0.0
+api-version: '1.21'
+author: alfredredbird
+description: Clickable cheat/admin menu with Discord activity logging
+
+commands:
+  pref:
+    description: Opens the Pref cheat menu. "/pref reload" reloads config.yml
+    usage: /pref [reload]
+    permission: prefv4.use
+
+permissions:
+  prefv4.use:
+    description: Allows opening the Pref menu
+    default: op
+  prefv4.reload:
+    description: Allows reloading Prefv4's config.yml with /pref reload
+    default: op
+  prefv4.command.kick:
+    description: Allows kicking players from the Player Menu
+    default: op
+  prefv4.command.freeze:
+    description: Allows freezing/unfreezing players from the Player Menu
+    default: op
+  prefv4.command.godmode:
+    description: Allows toggling god mode from the Admin Commands menu
+    default: op
+  prefv4.command.vanish:
+    description: Allows toggling vanish from the Admin Commands menu
+    default: op
